@@ -29,6 +29,7 @@ body {
   overflow-x: hidden;
   box-sizing: border-box;
   transition: all 0.4s;
+  color: white;
 }
 
 body {
@@ -1411,6 +1412,8 @@ hero css
 
 .hero-section {
   position: relative;
+  background-color: white;
+  padding-top: 40px;
 }
 
 .hero-single {
@@ -1456,7 +1459,7 @@ hero css
 
 .hero-single .hero-content .hero-sub-title {
   display: inline-block;
-  background: #4F5DEC;
+  background: #000000;
   padding: 5px 25px;
   color: #fff;
   border-radius: 50px;
@@ -1517,6 +1520,17 @@ hero css
   position: absolute;
   top: 50%;
   transform: translate(0, -50%);
+}
+.scrollable-column {
+  max-height: 100%;
+  overflow-y: auto;
+ 
+
+}
+.precio{
+  color: #44bcc5;
+ font-size: 60px;
+ font-weight: 20px;
 }
 
 @media all and (max-width: 1199px) {
@@ -3206,7 +3220,7 @@ contact us css
 .contact-form-header h2 {
   font-size: 30px;
   margin-bottom: 10px;
-  color: #111111;
+  color: #44bcc5;
 }
 
 .contact-form .form-group {
@@ -3221,7 +3235,7 @@ contact us css
 }
 
 .contact-form .form-group .form-control:focus {
-  border-color: #4F5DEC;
+  border-color: #44bcc5;
 }
 
 .contact-map {
@@ -3248,7 +3262,7 @@ contact us css
   overflow: hidden;
   margin-bottom: 25px;
   border-radius: 15px;
-  border: 3px solid #4F5DEC;
+  border: 3px solid #44bcc5;
   background:#fff;
   box-shadow: 0 0 40px 5px rgb(0 0 0 / 5%);
 }
@@ -3261,13 +3275,13 @@ contact us css
   line-height: 70px;
   text-align: center;
   border-radius: 50px;
-  background: #4F5DEC;
+  background: #44bcc5;
 }
 
 .contact-info h5 {
   font-size: 22px;
   margin-bottom: 8px;
-  color: #111111;
+  color: #44bcc5;
 }
 
 .contact-info p{
@@ -4512,6 +4526,7 @@ faq css
 
 .accordion-button:not(.collapsed) {
   border-bottom: 1px solid #44bcc5;
+  color: #44bcc5;
 }
 
 .accordion-button:not(.collapsed)::after {
@@ -5462,7 +5477,7 @@ home 2
   height: 100%;
   left: 0;
   top: 0;
-  background: #4F5DEC;
+  background: #44bcc5;
   z-index: -1;
 }
 
@@ -5481,7 +5496,7 @@ home 2
 }
 
 .home-2 .find-car-title-wrapper{
-  background: #4f5dec;
+  background: #44bcc5;
   width: 320px;
   position: absolute;
   top: 12px;
@@ -5494,7 +5509,7 @@ home 2
   content: '';
   position: absolute;
   border-bottom: 17px solid transparent;
-  border-right: 19px solid #414bb9;
+  border-right: 19px solid #44bcc5;
   left: 0;
   bottom: -17px;
 }
@@ -5504,7 +5519,7 @@ home 2
   position: absolute;
   border-top: 25px solid transparent;
   border-bottom: 25px solid transparent;
-  border-left: 21px solid #4f5dec;
+  border-left: 21px solid #44bcc5;
   right: -21px;
   top: 0px;
 }
